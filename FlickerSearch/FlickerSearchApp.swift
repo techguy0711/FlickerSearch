@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct FlickerSearchApp: App {
+struct SuperFlickerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+            }
         }
     }
 }
